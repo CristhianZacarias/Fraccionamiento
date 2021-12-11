@@ -42,7 +42,7 @@ Avenida.createAven = (dataAven, result) =>{
             result(null, error);
         }
         else{
-            console.log('Avenida creado exitosamente!!!');
+            console.log('Avenida creado exitosamente...!!!');
             result(null, respuesta);
         }
     })
