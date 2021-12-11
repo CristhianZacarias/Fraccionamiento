@@ -37,7 +37,7 @@ exports.createResidente = (req, res)=>{
 
 exports.updateResidente = (req, res)=>{
     const DataResidente = new Residentesmodel(req.body);
-    console.log('Residente actualizado correctamente', DataResidente);
+    console.log('Residente actualizado correctamente!!!', DataResidente);
     if(req.body.constructor === Object && Object.keys(req.body).length === 0){
         res.send(400).send({success:false, message: 'Porfavor llene los campos'});
     }
