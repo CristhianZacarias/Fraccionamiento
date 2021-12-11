@@ -3,7 +3,7 @@ const dbconfig = require('../config/db.config');
 
 exports.getAvenidaList = (req, res) => {
     Avenidamodel.getAll((error, avenida)=>{
-        console.log('Listado de Avenida');
+        console.log('Listado de Avenida...!!!');
         if(error)
         res.send(error);
         console.log('Avenida', avenida);
