@@ -42,7 +42,7 @@ Residentes.createResident = (dataGuard, result) =>{
             result(null, error);
         }
         else{
-            console.log('Residente creado exitosamente');
+            console.log('Residente creado exitosamente!!!');
             result(null, respuesta);
         }
     })
@@ -58,7 +58,7 @@ Residentes.updateResidente = (id, residenteData, result) =>{
             result(null,error);
         }
         else{
-            console.log('Residente actualizado correctamente');
+            console.log('Residente actualizado correctamente!!!');
             result(null, res);
         } 
     });
