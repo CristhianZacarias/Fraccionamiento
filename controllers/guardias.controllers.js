@@ -37,7 +37,7 @@ exports.createGuardia = (req, res)=>{
 
 exports.updateGuardia = (req, res)=>{
     const DataGuardia = new Guardiasmodel(req.body);
-    console.log('Guardia actualizado correctamente', DataGuardia);
+    console.log('Guardia actualizado correctamente!!!', DataGuardia);
     if(req.body.constructor === Object && Object.keys(req.body).length === 0){
         res.send(400).send({success:false, message: 'Porfavor llene los campos'});
     }
