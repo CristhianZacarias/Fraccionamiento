@@ -13,7 +13,7 @@ Invitados.getAll = (result) => {
             result(null, error);
         }
         else{
-            console.log("Consulta de invitados Conectado");
+            console.log("Consulta de invitados Conectado!!!");
             result(null, res);
         }
     })
@@ -42,7 +42,7 @@ Invitados.createInvit = (dataInvit, result) =>{
             result(null, error);
         }
         else{
-            console.log('Invitado creado exitosamente');
+            console.log('Invitado creado exitosamente!!!');
             result(null, respuesta);
         }
     })
