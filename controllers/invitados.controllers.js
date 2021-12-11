@@ -37,7 +37,7 @@ exports.createInvitado = (req, res)=>{
 
 exports.updateInvitado = (req, res)=>{
     const DataInvitado = new Invitadosmodel(req.body);
-    console.log('Invitado actualizado correctamente', DataInvitado);
+    console.log('Invitado actualizado correctamente!!!', DataInvitado);
     if(req.body.constructor === Object && Object.keys(req.body).length === 0){
         res.send(400).send({success:false, message: 'Porfavor llene los campos'});
     }
