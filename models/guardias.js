@@ -58,7 +58,7 @@ Guardias.updateGuardia = (id, guardiaData, result) =>{
             result(null,error);
         }
         else{
-            console.log('Guardia actualizado correctamente');
+            console.log('Guardia actualizado correctamente!!!');
             result(null, res);
         } 
     });
